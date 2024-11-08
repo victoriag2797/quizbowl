@@ -1,0 +1,31 @@
+.wholething {
+    background-color: rgb(236, 238, 243);
+    margin-top: 9%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    border: solid 3px red;
+}
+
+body {
+    background-color: rgb(104, 88, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitbutton {
+    border-radius: 10px;
+    background-color: rgb(104, 88, 243);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: solid 3px red;
+    margin-top: 7%;
+}
