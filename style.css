@@ -1,6 +1,6 @@
 .wholething {
     background-color: rgb(236, 238, 243);
-    margin-top: 9%;
+    margin-top: 12%;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -9,11 +9,17 @@
     padding-bottom: 5%;
     padding-left: 9%;
     padding-right: 9%;
-    border: solid 3px red;
+    transition-duration: 0.4s;
+}
+
+.wholething:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
 }
 
 body {
-    background-color: rgb(104, 88, 243);
+    background-image: linear-gradient(to bottom right, rgb(104, 88, 243), rgb(54, 40, 173));
+    padding-bottom: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +28,37 @@ body {
 .submitbutton {
     border-radius: 10px;
     background-color: rgb(104, 88, 243);
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border: solid 3px red;
-    margin-top: 7%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    transition: 0.4s;
+    color: rgb(236, 238, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submitbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+
+.question {
+    display: flex;
+    text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
+    color: rgb(65, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+    display: flex;
+    text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-container {
+    box-shadow: 0 12px 16px 0 rgba(13, 13, 13, 0.042), 0 17px 50px 0 rgba(13, 13, 13, 0.068);
 }
