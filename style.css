@@ -1,6 +1,6 @@
 .wholething {
     background-color: rgb(236, 238, 243);
-    margin-top: 12%;
+    margin-top: 10%;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
 
 body {
     background-image: linear-gradient(to bottom right, rgb(104, 88, 243), rgb(54, 40, 173));
-    padding-bottom: 20%;
+    padding-bottom: 9%;
     display: flex;
     align-items: center;
     justify-content: center;
