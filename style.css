@@ -18,14 +18,14 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(104, 88, 243), rgb(54, 40, 173));
+    background-image: linear-gradient(to bottom right, rgb(104, 88, 243), rgb(94, 27, 156));
     padding-bottom: 9%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.submitbutton {
+.submit-button {
     border-radius: 10px;
     background-color: rgb(104, 88, 243);
     padding-left: 12px;
@@ -36,25 +36,25 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.submitbutton:hover {
+.submit-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
   }
 
-.question {
+.question-container {
     display: flex;
     text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
     color: rgb(65, 63, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.score {
+.score-container {
     display: flex;
     text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
+.header-container {
     text-shadow: 0px 6px 12px rgba(13, 13, 13, 0.148);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
